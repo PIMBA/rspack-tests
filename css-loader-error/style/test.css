@@ -1,0 +1,5 @@
+@import '~/style/deps.css';
+
+i {
+  background-image: url('~/img/arr-down-grey.png');
+}
