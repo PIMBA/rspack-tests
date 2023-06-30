@@ -13,7 +13,7 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@rspack/cli": "^0.2.4",
+    "@rspack/cli": "0.2.4-canary-e7714a0-20230629023134",
     "@types/react": "^18.2.14",
     "typescript": "^5.1.5"
   }

@@ -11,8 +11,8 @@ dependencies:
 
 devDependencies:
   '@rspack/cli':
-    specifier: ^0.2.4
-    version: 0.2.4(react-refresh@0.14.0)(webpack@5.88.0)
+    specifier: 0.2.4-canary-e7714a0-20230629023134
+    version: 0.2.4-canary-e7714a0-20230629023134(react-refresh@0.14.0)(webpack@5.76.0)
   '@types/react':
     specifier: ^18.2.14
     version: 18.2.14
@@ -116,42 +116,24 @@ packages:
     resolution: {integrity: sha1-XeWiOFo1MJQn9gEZkrVEUU1VmqE=}
     dev: true
 
-  /@rspack/binding-darwin-arm64@0.2.4:
-    resolution: {integrity: sha512-kQEeNnRj7SpmR3RnKMorV0IX/rv5Bj0Tjskx4Di4TSWYjD9uwOzFJEWBWD8MBS90vqyte7caK7VBDWm+RVT61Q==}
+  /@rspack/binding-darwin-arm64@0.2.4-canary-e7714a0-20230629023134:
+    resolution: {integrity: sha512-jJVEGVsJL0eDUqABgW1HzBJbtMW1a++KEyJ9Wm1oXSAw0F2lpYYCM6O6DyD14NGq8EBHKOSNrV978P7RhFmgOg==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding-darwin-x64@0.2.4:
-    resolution: {integrity: sha512-Y1vvUQW0xd0fOV/FY2OYYCyNC1Ie24hLj4ir+yotq5NkikyjpRamr8AQbOCghrwGBBPH1WxwAFy1m8LMTXAjMw==}
+  /@rspack/binding-darwin-x64@0.2.4-canary-e7714a0-20230629023134:
+    resolution: {integrity: sha512-bqJ1lu9kXFwK8+/esSwNLhAnZoU1LhiVhY5DHm7WaL0lhfRCSFEA26gsOu2Fg+EgPubuanj29FAR9rYkl5xKAQ==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding-linux-arm64-gnu@0.2.4:
-    resolution: {integrity: sha512-lwXEKA0/TGduwfm1OrCFy8NdqM05WK6FwuAw8oquOZL5Nsr8YqG43IsoqeYI5yc4JBgI0BcFJwXxWyVzw/MXlw==}
-    cpu: [arm64]
-    os: [linux]
-    libc: [glibc]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@rspack/binding-linux-arm64-musl@0.2.4:
-    resolution: {integrity: sha512-Tx1tfzZ9KKYPbECc2xRd7cHpPWABhzeHqP73dHmhjvvJdBhPxufR5z6WFpASUwZtCXEhH4LDnGB2CPlwAPV+tw==}
-    cpu: [arm64]
-    os: [linux]
-    libc: [musl]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@rspack/binding-linux-x64-gnu@0.2.4:
-    resolution: {integrity: sha512-ByYiBOLCWVDiJoU7RjZnz8Q02defpYXEI2D4n9vFDIL1TM/B3S2kJyXBd6NEtxlecAWzjVthzYXFuPgTRQwasg==}
+  /@rspack/binding-linux-x64-gnu@0.2.4-canary-e7714a0-20230629023134:
+    resolution: {integrity: sha512-6UPn+W55LlFex8UdyET5MVYRK0ZaYqeLUdlqKuJY21AymTltFZ1eHNv5NiegpagNk6oOvKEDXLChz+whnERRKQ==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
@@ -159,60 +141,30 @@ packages:
     dev: true
     optional: true
 
-  /@rspack/binding-linux-x64-musl@0.2.4:
-    resolution: {integrity: sha512-t2crEuT0cgutTa8mgrYRBEsh3afWnqShXakNLi2DaD/RwzKWHFMW1bwShubkYdxye5e6oecMtIUciAE6DQRRrg==}
-    cpu: [x64]
-    os: [linux]
-    libc: [musl]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@rspack/binding-win32-arm64-msvc@0.2.4:
-    resolution: {integrity: sha512-BbCMNvfuSLFYCfcuPZLkD50pkDj5779yCZIrN09os5mn6pnI/ndGLwbGA4FT+z9SInyf6baPsr3leETDQSTObQ==}
-    cpu: [arm64]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@rspack/binding-win32-ia32-msvc@0.2.4:
-    resolution: {integrity: sha512-vfLH2ryjC8LqctprqNzXaIJ4/nyu4+T1/KnJi1WDfScblYxASsQJbhWj7WiqXr0BJfyF4YQf7J+8TLXGyqIhpg==}
-    cpu: [ia32]
-    os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
-
-  /@rspack/binding-win32-x64-msvc@0.2.4:
-    resolution: {integrity: sha512-vpGmhaDryvq6wOx52auVOGvR2LsTfs29TRTwtJfbIzQrIWYaPo//WBZOTexa8nPnEDxioFO5RUDm7VAiuuIqUg==}
+  /@rspack/binding-win32-x64-msvc@0.2.4-canary-e7714a0-20230629023134:
+    resolution: {integrity: sha512-D/lhpr9V6HTmcj5xm6X209hOwdYIoXuMFhVL6gvaUffiP7b1N2+24DnyMuHpNYQ1aSxAj+hyNNPdoSbgYS0A4A==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding@0.2.4:
-    resolution: {integrity: sha512-5sdWAURjWz6HZtYdasBUJug5XRgsi8yjJNaT2FwkHFP+DBK34DCR8Ciq9RBKtVsiEKsNd7hqExnMDh6gp+MNDw==}
+  /@rspack/binding@0.2.4-canary-e7714a0-20230629023134:
+    resolution: {integrity: sha512-7XEhuFKXRrJ5XHzqXmq6iXiYlKuAN/Fpe0Ke921EJ3Y4ZqtiLelAuUsw5NkaczI7HgOKg+NZrLENqpWJZkSeQg==}
     optionalDependencies:
-      '@rspack/binding-darwin-arm64': 0.2.4
-      '@rspack/binding-darwin-x64': 0.2.4
-      '@rspack/binding-linux-arm64-gnu': 0.2.4
-      '@rspack/binding-linux-arm64-musl': 0.2.4
-      '@rspack/binding-linux-x64-gnu': 0.2.4
-      '@rspack/binding-linux-x64-musl': 0.2.4
-      '@rspack/binding-win32-arm64-msvc': 0.2.4
-      '@rspack/binding-win32-ia32-msvc': 0.2.4
-      '@rspack/binding-win32-x64-msvc': 0.2.4
+      '@rspack/binding-darwin-arm64': 0.2.4-canary-e7714a0-20230629023134
+      '@rspack/binding-darwin-x64': 0.2.4-canary-e7714a0-20230629023134
+      '@rspack/binding-linux-x64-gnu': 0.2.4-canary-e7714a0-20230629023134
+      '@rspack/binding-win32-x64-msvc': 0.2.4-canary-e7714a0-20230629023134
     dev: true
 
-  /@rspack/cli@0.2.4(react-refresh@0.14.0)(webpack@5.88.0):
-    resolution: {integrity: sha512-iQN3jYWMMaSDUHy2g01NhjzWM1WCfKcoD6iGZqMuXMDWxxj1cUURpv7YF88JOfljoEZi7NtXJB27zS4JbDymKw==}
+  /@rspack/cli@0.2.4-canary-e7714a0-20230629023134(react-refresh@0.14.0)(webpack@5.76.0):
+    resolution: {integrity: sha512-EnH74yvNHd7vmSb4+1YhEvfQkMolldgzKG8azJqf8J3sxqPLxZwzQoOySADRnTKvDa98S2fIf3mB61yPlh3CcQ==}
     hasBin: true
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
-      '@rspack/core': 0.2.4(webpack@5.88.0)
-      '@rspack/dev-server': 0.2.4(@rspack/core@0.2.4)(react-refresh@0.14.0)
+      '@rspack/core': 0.2.4-canary-e7714a0-20230629023134(webpack@5.76.0)
+      '@rspack/dev-server': 0.2.4-canary-e7714a0-20230629023134(@rspack/core@0.2.4-canary-e7714a0-20230629023134)(react-refresh@0.14.0)
       colorette: 2.0.19
       interpret: 3.1.1
       rechoir: 0.8.0
@@ -239,11 +191,11 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /@rspack/core@0.2.4(webpack@5.88.0):
-    resolution: {integrity: sha512-b6owhH72OYQzsuk+HyR4d5z8pLOM6a2cZg2U39GysgSUtvmqX/2ipprFxztjfXKRXARcg0/n+rp0CN1bDvLhiA==}
+  /@rspack/core@0.2.4-canary-e7714a0-20230629023134(webpack@5.76.0):
+    resolution: {integrity: sha512-BIj8ItpKfGPtLsYh6MC3GPwB2e5bYqGYyLMVdG2K9hXzdtom2A3igu5XE7Fd2ewJYVbjlk/ll6tzgI7nKv57qQ==}
     dependencies:
-      '@rspack/binding': 0.2.4
-      '@rspack/dev-client': 0.2.4(react-refresh@0.14.0)(webpack-dev-server@4.13.1)(webpack@5.76.0)
+      '@rspack/binding': 0.2.4-canary-e7714a0-20230629023134
+      '@rspack/dev-client': 0.2.4-canary-e7714a0-20230629023134(react-refresh@0.14.0)(webpack-dev-server@4.13.1)(webpack@5.76.0)
       '@swc/helpers': 0.5.1
       browserslist: 4.21.9
       compare-versions: 6.0.0-rc.1
@@ -268,8 +220,8 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /@rspack/dev-client@0.2.4(react-refresh@0.14.0)(webpack-dev-server@4.13.1)(webpack@5.76.0):
-    resolution: {integrity: sha512-yIfEYRHlw46bNCRJKGyHZVDYXJbjx4S0cYTazCqcSEms73Aq3Uf875m/+VNH0ptpoNsgEVareU+ZJ+yQfBRhow==}
+  /@rspack/dev-client@0.2.4-canary-e7714a0-20230629023134(react-refresh@0.14.0)(webpack-dev-server@4.13.1)(webpack@5.76.0):
+    resolution: {integrity: sha512-c9bBhdJvls3hxpCy9UhEc1CdVw9SGR/zAAw8BqYxNLcQNAzzEXoAkF6SYzVtXgBdTfeiSHoRu/HnrW+1XqRvCQ==}
     peerDependencies:
       react-refresh: '>=0.10.0 <1.0.0'
     peerDependenciesMeta:
@@ -288,13 +240,13 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /@rspack/dev-server@0.2.4(@rspack/core@0.2.4)(react-refresh@0.14.0):
-    resolution: {integrity: sha512-xIU+DSyPyW6gh7dC4OIGO5ZZGlfZJ3xdA6umuc7ZtRmJ+IKwTASpjbntzrWLVzu8sAGhGLC8cmpJlwYE/kaI4A==}
+  /@rspack/dev-server@0.2.4-canary-e7714a0-20230629023134(@rspack/core@0.2.4-canary-e7714a0-20230629023134)(react-refresh@0.14.0):
+    resolution: {integrity: sha512-MKDD4xBWKWdIaa6kj9DFv6c4kuHDqD7X+zB8MY+KjcuTJYDsni5bIbVltsy84zoN1N5K+biS+5+Og9t4KZmy/A==}
     peerDependencies:
       '@rspack/core': '*'
     dependencies:
-      '@rspack/core': 0.2.4(webpack@5.88.0)
-      '@rspack/dev-client': 0.2.4(react-refresh@0.14.0)(webpack-dev-server@4.13.1)(webpack@5.76.0)
+      '@rspack/core': 0.2.4-canary-e7714a0-20230629023134(webpack@5.76.0)
+      '@rspack/dev-client': 0.2.4-canary-e7714a0-20230629023134(react-refresh@0.14.0)(webpack-dev-server@4.13.1)(webpack@5.76.0)
       chokidar: 3.5.3
       connect-history-api-fallback: 2.0.0
       express: 4.18.1
@@ -1037,7 +989,7 @@ packages:
     resolution: {integrity: sha512-QHTXI/sZQmko1cbDoNAa3mJ5qhWUUNAq3vR0/YiD379fWQrcfuoX1+HW2S0MTt7XmoPLapdaDKUtelUSPic7hQ==}
     engines: {node: '>=10.13.0'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       tapable: 2.2.1
     dev: true
 
@@ -2380,7 +2332,7 @@ packages:
     engines: {node: '>=10.13.0'}
     dependencies:
       glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
     dev: true
 
   /wbuf@1.7.3:
